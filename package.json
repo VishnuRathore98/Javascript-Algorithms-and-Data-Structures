@@ -1,0 +1,11 @@
+{
+  "name": "javascript-algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "Data structures and algorithms using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishnu Pratap Singh Rathore",
+  "license": "ISC"
+}
