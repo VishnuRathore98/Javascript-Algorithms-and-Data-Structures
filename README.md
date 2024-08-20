@@ -4,7 +4,7 @@
 
 <h3>Contents</h3>
 <ul>
-  <li><h5>Big O Notation</h5></li>
+  <li><h5><a href="https://github.com/VishnuRathore98/Javascript-Algorithms-and-Data-Structures/tree/main/Section%201%3A%20Big%20O%20Notation">Big O Notation</a></h5></li>
   <li>Analysing performance of Arrays and Objects</li>
   <li>Problem solving approach</li>
   <li>Problem solving patterns</li>
