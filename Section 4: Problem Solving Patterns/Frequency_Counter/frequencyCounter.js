@@ -1,10 +1,3 @@
-/* 
- * Frequency Counter
-  -------------------
-
- * This pattern uses "objects" or "sets" to collect values/frequencies.
- * This can be used to avoid the need for nested loops or "O(n^2)" operations with arrays/strings.
-*/
 
 /*
  Write a function called same, which accepts two arrays as input.
