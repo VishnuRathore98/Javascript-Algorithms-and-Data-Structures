@@ -21,8 +21,8 @@ Time Complexity - O(n)
 Space Complexity - O(1)
 */
 
-function minSubArrayLen(){
-
+function minSubArrayLen(arr, num){
+    
 }
 
 // console.log(minSubArrayLen([2,3,1,2,4,3], 7));
