@@ -28,15 +28,14 @@ function binarySearch(arr, val){
     }
     let left=0;
     let right=arr.length-1;
-    let middle=Math.floor((left+right)/2);
-    while (left<right) {
+    while (left<=right) {
+        let middle=Math.floor((left+right)/2);
         console.log(`left: ${left}->${arr[left]}`,`right: ${right}->${arr[right]}`,`middle: ${middle}->${arr[middle]}`);
         if(val === arr[middle]) return middle;
         if (val>arr[middle]) left = middle+1;
         if (val<arr[middle]) right = middle-1;
-        middle=Math.floor((left+right)/2);
     }
     return -1; //If not found
 }
 
-console.log(binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 35, 37, 40, 44, 64, 79, 84, 86, 95, 96, 98, 99], 95));
+console.log(binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 35, 37, 40, 44, 64, 79, 84, 86, 95, 96, 98, 99], 4));
