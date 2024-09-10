@@ -1,9 +1,9 @@
 export default function pivot(array, startIndex, endIndex) {
     
-    let pivotValue = array[0];
+    let pivotValue = array[startIndex];
     let pivotIndex = startIndex;
 
-    for (let i = startIndex; i < endIndex; i++) {
+    for (let i = startIndex+1; i < endIndex; i++) {
         if (pivotValue>array[i]) {
             pivotIndex++;
             let temp = array[pivotIndex];
@@ -21,6 +21,6 @@ export default function pivot(array, startIndex, endIndex) {
     return pivotIndex;
 }
 
-let array = [5,2,1,8,4,7,6,3];
+// let array = [5,2,1,8,4,7,6,3];
 
-console.log(pivot(array, 0, array.length));
+// console.log(pivot(array, 0, array.length));
