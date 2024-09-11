@@ -18,19 +18,23 @@
   <li><a href="./Section 8: Sorting/selectionSort.js">Selection sort</a></li>
   <li><a href="./Section 8: Sorting/insertionSort.js">Insertion sort</a></li>
   <li><a href="./Section 8: Sorting/comparing_bubble_selection_insertion.md">Comparing Bubble, Selection, Insertion sorting</a></li>
-  <li><a href="./Section 9: Merge Sort/">Merge sort</a></li>
-  <li><a href="">Quick sort</a></li>
-  <li><a href="">Radix sort</a></li>
-  <li><a href=""><h5>Data Structures</h5></a></li>
-  <li><a href="">Singly linked lists</a></li>
-  <li><a href="">Doubly linked lists</a></li>
-  <li><a href="">Stacks + Queues</a></li>
-  <li><a href="">Binary search trees</a></li>
-  <li><a href="">Tree traversal</a></li>
-  <li><a href="">Binary heaps</a></li>
-  <li><a href="">Hash tables</a></li>
-  <li><a href=""><h5>Graphs</h5></a></li>
-  <li><a href="">Graph traversal</a></li>
-  <li><a href="">Dijkstra's algorithm</a></li>
-  <li><a href="">Dynamic programming</a></li>
+  <li><a href="./Section 9: Merge Sort/merge_sort.md">Merge sort</a></li>
+  <li><a href="./Section 10: Quick Sort/quick_sort.md">Quick sort</a></li>
+  <li><a href="./Section 11: Radix Sort/radix_sort.md">Radix sort</a></li>
+  <li>
+  <h4>Upcomming:</h5>
+  <li><h5>Data Structures</h5></li>
+  <li>Singly linked lists</li>
+  <li>Doubly linked lists</li>
+  <li>Stacks + Queues</li>
+  <li>Binary search trees</li>
+  <li>Tree traversal</li>
+  <li>Binary heaps</li>
+  <li>Hash tables</li>
+  <li><h5>Graphs</h5></li>
+  <li>Graph traversal</li>
+  <li>Dijkstra's algorithm</li>
+  <li>Dynamic programming</li>
+  
+  </li>
 </ul>
