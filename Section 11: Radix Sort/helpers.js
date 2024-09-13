@@ -1,14 +1,19 @@
-//---------------------------------------------------------------
-//                  Get number at position
-//---------------------------------------------------------------
+/*---------------------------------------------------------------
+                    Get number at position
+ 
+    This will return the digit in num at the given place value.
+---------------------------------------------------------------
+*/
+
 
 // Approach 1:
-
-// function getDigit(number, position) {
-//     let numberAtPosition = number%(10**(position+1));
-//     numberAtPosition = Math.trunc(numberAtPosition/(10**(position)));
-//     return numberAtPosition;
-// }
+/* 
+function getDigit(number, position) {
+    let numberAtPosition = number%(10**(position+1));
+    numberAtPosition = Math.trunc(numberAtPosition/(10**(position)));
+    return numberAtPosition;
+}
+*/
 
 //---------------------------------------------------------------
 
@@ -21,21 +26,28 @@ function getDigit(number, position) {
 // console.log(getDigit(1234,3)); // O/p -> 1
 
 
-//---------------------------------------------------------------
-//                  Get Digit Count
-//---------------------------------------------------------------
+/* 
+---------------------------------------------------------------
+                 Get Digit Count
+
+    This will return the number of digits in num.
+---------------------------------------------------------------
+
+*/
 
 // Approach 1:
 
-// function digitCount(number) {
-//     let count=0, newNum=number;
-//     if(number===0) return 1;
-//     while (newNum!==0) {
-//         count++;
-//         newNum=Math.trunc(number/(10**count));
-//     }
-//     return count;
-// }
+/* 
+function digitCount(number) {
+    let count=0, newNum=number;
+    if(number===0) return 1;
+    while (newNum!==0) {
+        count++;
+        newNum=Math.trunc(number/(10**count));
+    }
+    return count;
+}
+*/
 
 //---------------------------------------------------------------
 
@@ -48,21 +60,29 @@ function digitCount(number){
 
 // console.log(digitCount(23451));
 
-//---------------------------------------------------------------
-//                      Most Digits
-//---------------------------------------------------------------
+/* 
+---------------------------------------------------------------
+                     Most Digits
+
+    Given an array of numbers, returns the number of digits in
+    the largest number in the list.
+---------------------------------------------------------------
+
+*/
 
 // Approach 1:
-// function mostDigits(numArr) {
-//     if(numArr.length===0) return 0;
-//     let largest=0;
-//     for (const item of numArr) {
-//         if (largest < digitCount(item)) {
-//             largest = digitCount(item);
-//         }
-//     }
-//     return largest;
-// }
+/* 
+function mostDigits(numArr) {
+    if(numArr.length===0) return 0;
+    let largest=0;
+    for (const item of numArr) {
+        if (largest < digitCount(item)) {
+            largest = digitCount(item);
+        }
+    }
+    return largest;
+}
+*/
 
 //---------------------------------------------------------------
 
